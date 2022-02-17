@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Title",
+    "subtitle": "Subtitle",
+    "text": "Text",
+    "smallText": "Small text",
+    "variant": "red"
+  },
+  {
+    "title": "Title",
+    "subtitle": "Subtitle",
+    "text": "Text",
+    "smallText": "Small text",
+    "variant": "blue"
+  },
+  {
+    "title": "Title",
+    "subtitle": "Subtitle",
+    "text": "Text",
+    "smallText": "Small text",
+    "variant": "orange"
+  },
+  {
+    "title": "Title",
+    "subtitle": "Subtitle",
+    "text": "Text",
+    "smallText": "Small text",
+    "variant": "yellow"
+  },
+  {
+    "title": "Title",
+    "subtitle": "Subtitle",
+    "text": "Text",
+    "smallText": "Small text",
+    "variant": "purple"
+  },
+  {
+    "title": "Title",
+    "subtitle": "Subtitle",
+    "text": "Text",
+    "smallText": "Small text",
+    "variant": "pink"
+  },
+  {
+    "title": "Title",
+    "subtitle": "Subtitle",
+    "text": "Text",
+    "smallText": "Small text",
+    "variant": "grey"
+  },
+  {
+    "title": "Title",
+    "subtitle": "Subtitle",
+    "text": "Text",
+    "smallText": "Small text",
+    "variant": "green"
+  }
+]
