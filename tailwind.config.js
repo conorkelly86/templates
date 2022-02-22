@@ -8,6 +8,11 @@ module.exports = {
       spacing: {
         "20%": "20%", // p-80% - should work
       },
+      colors: {
+        custom: {
+          "custom-001": "#2F3061",
+        },
+      },
     },
   },
   plugins: [],
