@@ -5,6 +5,7 @@ import NavBar from "../components/NavBar/NavBar";
 import styles from "../styles/Home.module.css";
 import data from "./data.json";
 import links from "./links.json";
+
 const Home: NextPage = () => {
   return (
     <>
