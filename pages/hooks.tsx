@@ -10,9 +10,7 @@ import data from "./data.json";
 import { countCode, randomColor } from "./hooksCode";
 import links from "./links.json";
 const Hooks: NextPage = () => {
-  const [color, setColor] = useState(
-    randomColor.sort(() => Math.random() - 0.5)
-  );
+  const [color, setColor] = useState(randomColor);
   const [display, setDisplay] = useState("none");
   const [width, setWidth] = useState("3");
   const [count, setCount] = useState(0);
@@ -21,7 +19,8 @@ const Hooks: NextPage = () => {
   };
 
   function handleColor() {
-    setColor(nextColor);
+    const color = "blue";
+    setColor(color);
   }
   function handleSize() {
     const changeSize = width === "300px" ? "600px" : "300px";
@@ -66,7 +65,7 @@ const Hooks: NextPage = () => {
           <div className="w-1/3 mx-8 ">
             <button
               onClick={handleColor}
-              className="bg-green-900 h-25 w-25"
+              className="h-25 w-25 p-6"
               style={{ color }}
             >
               Color Box
