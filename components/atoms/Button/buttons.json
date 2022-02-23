@@ -1,0 +1,14 @@
+[
+  {
+    "variant": "primary",
+    "color": "bg-red-500"
+  },
+  {
+    "variant": "secondary",
+    "color": "bg-amber-800"
+  },
+  {
+    "variant": "third",
+    "color": "bg-red-500"
+  }
+]
