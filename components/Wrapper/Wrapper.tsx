@@ -6,7 +6,7 @@ interface WrapperProps {
 
 export function Wrapper({ children }: WrapperProps): ReactElement {
   return (
-    <div className="p-6 max-w-7xl mx-auto  rounded-xl shadow-xl flex items-center space-x-2">
+    <div className="p-6 max-w-7xl mx-auto rounded-xl flex-wrap flex items-center ">
       {children}
     </div>
   );

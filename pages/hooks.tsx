@@ -32,10 +32,25 @@ const Hooks: NextPage = () => {
   }
 
   return (
-    <div className="bg-custom-custom-001 h-screen py-10">
+    <div className="bg-custom-custom-001 min-h-screen ">
       <Wrapper>
-        <div className="inline-flex wrap items-center justify-evenly w-full">
-          <div className="lg:w-1/3 sm:w-auto mx-8">
+        <div className="lg:w-1/3 sm:w-full mx-8 ">
+          <code>{countCode}</code>
+        </div>
+        <div className="lg:w-1/3 sm:w-full mx-8">➡️</div>
+        <div className="lg:w-1/3 sm:w-full mx-8">
+          <button
+            onClick={handleColor}
+            className="h-25 w-25 p-6"
+            style={{ color }}
+          >
+            Color Box
+          </button>
+        </div>
+      </Wrapper>
+      {/* <Wrapper>
+        <div className="inline-flex wrap items-center justify-evenly lg:w-full sm:w-auto ">
+          <div className="lg:w-1/3  mx-8">
             <CodeBlock
               text={countCode}
               language="javascript"
@@ -52,10 +67,9 @@ const Hooks: NextPage = () => {
             </button>
           </div>
         </div>
-      </Wrapper>
-
+      </Wrapper> */}
       <Wrapper>
-        <div className="inline-flex wrap items-center justify-evenly w-full">
+        <div className="inline-flex wrap items-center justify-evenly lg:w-full sm:w-auto ">
           <div className="lg:w-1/3 sm:w-auto mx-8">
             <button onClick={handleColor} className="bg-red-700">
               Color change
@@ -73,15 +87,22 @@ const Hooks: NextPage = () => {
           </div>
         </div>
       </Wrapper>
-      {/* 
-          <div className="flex w-full">
-            <button onClick={handleHide} className="bg-pink-700">
+
+      <Wrapper>
+        <div className="inline-flex wrap items-center justify-evenly w-full">
+          <div className="lg:w-1/3 sm:w-auto mx-8">
+            <button onClick={handleHide} className="bg-pink-700 p-6">
               Show Hide
             </button>
-            <div style={{ display }} className="h-10 w-10 bg-yellow-400">
-              Making it big
+          </div>
+          <div className="text-xl lg:1/3">➡️</div>
+          <div className="w-1/3 mx-8 ">
+            <div style={{ display }} className="bg-lime-400 p-6">
+              Hi there!
             </div>
-          </div> */}
+          </div>
+        </div>
+      </Wrapper>
     </div>
   );
 };
