@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        "20%": "20%", // p-80% - should work
+        "25%": "25%", // p-80% - should work
       },
       colors: {
         custom: {

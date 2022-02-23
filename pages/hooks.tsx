@@ -1,14 +1,9 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
 import { useState } from "react";
-import { Code, CodeBlock, CopyBlock, dracula } from "react-code-blocks";
-import NavBar from "../components/NavBar/NavBar";
+import { CodeBlock, dracula } from "react-code-blocks";
 import { Wrapper } from "../components/Wrapper/Wrapper";
-import styles from "../styles/Home.module.css";
-import data from "./data.json";
 import { countCode, randomColor } from "./hooksCode";
-import links from "./links.json";
+
 const Hooks: NextPage = () => {
   const [color, setColor] = useState(randomColor);
   const [display, setDisplay] = useState("none");
