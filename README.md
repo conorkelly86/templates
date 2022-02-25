@@ -1,1 +1,1 @@
-Messing around with some Tailwind templates for my own use.
+Messing around with some Tailwind CSS templates for my own use.
